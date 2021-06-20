@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+.container_folder {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.folders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.folders a {
+  text-decoration: none;
+}
+
+.folder {
+  padding: 0 5px;
+  width: 300px;
+  text-align: center;
+  margin: 20px 0;
+}
+.folder a {
+  text-decoration: none;
+  color: black;
+  line-height: 1.42857143;
+}
+.folder .anticon-close {
+  display: flex;
+  justify-content: flex-end;
+  width: 12em;
+}
+.folder .anticon-close svg {
+  width: 14px;
+  height: 14px;
+}
+.folder img {
+  width: 70px;
+}
+.folder span {
+  display: block;
+  padding-bottom: 1px;
+}
+
+.folders_bim a {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.watch_project {
+  padding-left: 10px;
+  text-align: center;
+}
+.watch_project img {
+  width: 150px;
+  display: block;
+}
+.watch_project span, .watch_project img, .watch_project a {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 638px) {
+  .container_folder {
+    display: block;
+  }
+
+  .watch_project {
+    text-align: center;
+  }
+  .watch_project img, .watch_project a, .watch_project span {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=folder.css.map */

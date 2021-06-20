@@ -1,0 +1,44 @@
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header_main a, .header_main li, .menu a, .menu li {
+  text-decoration: none;
+  color: white;
+}
+.header_main a:hover, .menu a:hover {
+  color: #acacac;
+}
+.header_main span, .menu span {
+  width: 30px;
+  margin: 5px;
+}
+
+.menu {
+  background-color: rgba(34, 34, 34, 0.94);
+  position: fixed;
+  color: white;
+  box-shadow: 1px 3px 10px 0 rgba(34, 34, 34, 0.5);
+  top: 8%;
+  left: 0;
+  padding: 10px 0;
+  z-index: 5;
+}
+
+.submenu {
+  display: none;
+  padding: 5px;
+}
+
+.menu li:hover .submenu {
+  display: block;
+  overflow-y: auto;
+  width: 250px;
+}
+.menu li:hover .submenu label {
+  display: block;
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,82 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projects__header {
+  margin: 15px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projects__header button {
+  border: 1px solid rgba(34, 34, 34, 0.94);
+  padding: 8px;
+  background-color: white;
+  border-radius: 5px;
+}
+.projects__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projects__download button {
+  border: 1px solid rgba(34, 34, 34, 0.94);
+  padding: 8px;
+  background-color: white;
+  border-radius: 5px;
+  width: 120px;
+}
+.projects_card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.projects_card__start {
+  height: 90%;
+}
+.projects_card__end {
+  display: block;
+  text-align: center;
+}
+.projects_card__end span {
+  text-align: center;
+  display: block;
+}
+.projects_card button {
+  justify-content: center;
+  background-color: #cce8ff;
+  width: 80%;
+  height: 35px;
+  border: none;
+  margin: 10px;
+}
+.projects_card img, .projects_card span {
+  width: 300px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .projects__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .projects__header button {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=project.css.map */

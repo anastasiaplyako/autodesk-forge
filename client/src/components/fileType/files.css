@@ -1,0 +1,28 @@
+.files {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 100px;
+}
+.files a {
+  text-decoration: none;
+}
+
+.file {
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+.file a {
+  text-decoration: none;
+  color: black;
+  line-height: 1.42857143;
+}
+.file img {
+  width: 70px;
+}
+.file span {
+  display: block;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=files.css.map */

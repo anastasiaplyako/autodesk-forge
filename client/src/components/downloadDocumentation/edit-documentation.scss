@@ -1,0 +1,31 @@
+.edit-item {
+  margin: 5% 15%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: none;
+  }
+
+  input[type="submit"] {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-left: none;
+    background-color: #cce8ff;
+  }
+
+  select {
+    padding: 4px;
+    width: 200px;
+  }
+
+  button {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-left: none;
+    background-color: #cce8ff;
+  }
+
+}

@@ -1,0 +1,33 @@
+.assignRole {
+  margin: 5% 15%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+
+  select {
+    width: 50%;
+    padding: 6px;
+  }
+
+  .folders {
+    display: block;
+    margin-top: 20px;
+  }
+
+  span, input {
+    display: inline-block;
+  }
+
+  input {
+    margin-right: 5px;
+  }
+
+  button {
+    padding: 8px;
+    background-color: #cce8ff;
+    width: 130px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 15px;
+  }
+
+}

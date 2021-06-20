@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.container_folder {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.folders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  a {
+    text-decoration: none;
+  }
+}
+
+.folder {
+  a {
+    text-decoration: none;
+    color: black;
+    line-height: 1.42857143;
+  }
+  .anticon-close {
+    display: flex;
+    justify-content: flex-end;
+    width: 12em;
+    svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  padding: 0 5px;
+  width: 300px;
+  text-align: center;
+  margin: 20px 0 ;
+
+  img {
+    width: 70px;
+  }
+
+  span {
+    display: block;
+    padding-bottom: 1px;
+  }
+}
+
+.folders_bim a {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.watch_project {
+  padding-left: 10px;
+  text-align: center;
+  img {
+    width: 150px;
+    display: block;
+  }
+  span, img, a {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .container_folder {
+    display: block;
+  }
+
+  .watch_project {
+    text-align: center;
+    img, a, span {
+      display: block;
+      margin: 0 auto;
+    }
+
+  }
+}

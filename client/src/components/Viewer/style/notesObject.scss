@@ -1,0 +1,60 @@
+.notesObject {
+  height: 60%;
+  background-color: rgba(34,34,34,.94);
+  position: fixed;
+  color: white;
+  box-shadow: 1px 3px 10px 0 rgba(34,34,34,.5);
+  top: 200px;
+  left: 76%;
+  z-index: 5;
+  border: none;
+  outline: none;
+  overflow-y: auto;
+  word-wrap:break-word;
+  width: 300px;
+
+  .span__header {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 18px;
+  }
+
+  span {
+    width: 300px;
+  }
+
+}
+
+.notes-container {
+  background-color: rgba(34,34,34,.94);
+  margin-bottom: 20px;
+  span {
+   /* width: 300px;*/
+  }
+}
+
+.text {
+  position: fixed;
+  background-color: rgba(34,34,34,.94);
+  color: white;
+  box-shadow: 1px 3px 10px 0 rgba(34,34,34,.5);
+  top: 50px;
+  z-index: 5;
+  border: none;
+  height: 27px;
+  outline: none;
+  left: 500px;
+}
+
+.submit {
+  position: fixed;
+  background-color: rgba(34,34,34,.94);
+  color: white;
+  top: 50px;
+  box-shadow: 1px 3px 10px 0 rgba(34,34,34,.5);
+  z-index: 5;
+  border: none;
+  height: 27px;
+  outline: none;
+  left: 600px;
+}

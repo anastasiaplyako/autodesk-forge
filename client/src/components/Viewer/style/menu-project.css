@@ -1,0 +1,41 @@
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header_main a, .header_main li, .menu_project a, .menu_project li {
+  text-decoration: none;
+  color: white;
+}
+.header_main a:hover, .menu_project a:hover {
+  color: #acacac;
+}
+
+.menu_project {
+  background-color: rgba(34, 34, 34, 0.94);
+  position: fixed;
+  color: white;
+  box-shadow: 1px 3px 10px 0 rgba(34, 34, 34, 0.5);
+  top: 8%;
+  left: 0;
+  padding: 10px 20px;
+  z-index: 5;
+}
+
+.submenu {
+  display: none;
+}
+
+.menu_project li:hover .submenu {
+  display: block;
+  height: 80vh;
+  overflow-y: auto;
+  width: 300px;
+}
+.menu_project li:hover .submenu label {
+  display: flex;
+  justify-content: space-between;
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=menu-project.css.map */

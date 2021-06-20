@@ -1,0 +1,34 @@
+.user {
+  margin: 5% 10%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 5%;
+}
+.user__card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.user__card_login {
+  width: 80px;
+}
+.user__card_operation a {
+  margin-right: 16px;
+}
+.user__card .anticon-close-circle {
+  color: #b73a3a;
+}
+.user__card select {
+  width: 100px;
+}
+
+@media screen and (max-width: 427px) {
+  .user {
+    margin: 15%;
+  }
+  .user__card {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=users-project.css.map */

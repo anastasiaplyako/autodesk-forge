@@ -1,0 +1,91 @@
+.assign {
+  text-align: start;
+}
+.assign #btn {
+  background-color: white;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  color: #56ac56;
+  font-size: 16px;
+}
+.assign #btn:hover {
+  color: #409240;
+}
+.assign__user button {
+  border: 1px solid rgba(34, 34, 34, 0.94);
+  padding: 5px;
+  background-color: white;
+  margin: 20px 0;
+}
+.assign__user span {
+  margin-right: 15px;
+}
+.assign__user input {
+  padding: 4px;
+}
+
+.buckets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.buckets span {
+  text-align: center;
+}
+.buckets img {
+  width: 80px;
+  height: 80px;
+}
+.buckets a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-buckets {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.createBucket button {
+  border: 1px solid rgba(34, 34, 34, 0.94);
+  padding: 8px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.createBucket input[type=text] {
+  padding: 6px;
+  border-radius: 0;
+  border: 1px solid rgba(34, 34, 34, 0.94);
+}
+.createBucket input[type=submit] {
+  border: 1px solid rgba(34, 34, 34, 0.94);
+  background-color: white;
+  padding: 6.4px;
+}
+
+.anticon-plus {
+  width: 20px;
+  height: 0px;
+}
+
+.bucket a {
+  color: #69a05c;
+  text-decoration: none;
+  margin-left: 7.8%;
+}
+.bucket a:hover {
+  color: rgba(34, 34, 34, 0.94);
+}
+.bucket__user {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  border-radius: 5px;
+}
+.bucket__container {
+  margin: 3% 20%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=buckets.css.map */

@@ -1,0 +1,67 @@
+.roles {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  margin: 5% 20%;
+}
+.roles .roles__create, .roles .current__roles, .roles .roles__add {
+  margin: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.roles input[type=text] {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: none;
+}
+.roles input[type=submit] {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-left: none;
+  background-color: #cce8ff;
+}
+.roles select {
+  padding: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: none;
+  border-right: none;
+  background-color: white;
+}
+.roles button {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-left: none;
+  background-color: #cce8ff;
+}
+.roles .current__roles_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+.roles .current__roles_item .anticon-close-circle {
+  width: 30px;
+  margin: 0;
+  padding: 0;
+}
+.roles .current__roles_item span {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .roles {
+    margin: 0 10%;
+  }
+  .roles div {
+    padding: 0;
+    text-align: center;
+    margin: 5px;
+  }
+  .roles input[type=text], .roles input[type=submit], .roles button, .roles select {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 16px;
+  }
+}
+
+/*# sourceMappingURL=roles.css.map */

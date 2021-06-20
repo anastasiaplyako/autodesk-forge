@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgba(34,34,34,.94);
+  height: 40px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 1.42857143;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+
+  a:hover {
+    color: #dddddd;
+  }
+
+  &_main {
+    padding-right: 15px;
+  }
+}

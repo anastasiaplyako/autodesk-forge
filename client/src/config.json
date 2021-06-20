@@ -1,0 +1,10 @@
+{
+  "port": 8000,
+  "TYPE_NOTE": "note",
+  "TYPE_NOTE_OBJECT": "note_object",
+  "storageName": "user",
+  "storageProject": "project",
+  "bucket": "urp1avdy2rigghalpoqfivbpl15bsayz-const",
+  "admin": "admin",
+  "expert": "expert"
+}
